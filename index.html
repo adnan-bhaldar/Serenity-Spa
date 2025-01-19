@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Serenity Spa & Massage</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="logo">Serenity Spa</div>
+        <div class="nav-toggle">
+            <i class="fas fa-bars"></i>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="theme-switch-wrapper">
+            <label class="theme-switch" for="checkbox">
+                <input type="checkbox" id="checkbox" />
+                <div class="slider round">
+                    <i class="fas fa-sun"></i>
+                    <i class="fas fa-moon"></i>
+                </div>
+            </label>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="video-background">
+            <video autoplay muted loop playsinline>
+                <source src="assets/videos/spa-background.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+        <div class="hero-content">
+            <h1>Welcome to Serenity Spa</h1>
+            <p>Experience the ultimate relaxation and rejuvenation</p>
+            <a href="#booking" class="cta-button">Book Now</a>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <h2>Our Services</h2>
+        <div class="services-grid">
+            <div class="service-card">
+                <i class="fas fa-spa"></i>
+                <h3>Swedish Massage</h3>
+                <p>Relaxing massage therapy to reduce stress and tension</p>
+            </div>
+            <div class="service-card">
+                <i class="fas fa-hands"></i>
+                <h3>Deep Tissue Massage</h3>
+                <p>Targeted massage for chronic muscle tension</p>
+            </div>
+            <div class="service-card">
+                <i class="fas fa-leaf"></i>
+                <h3>Aromatherapy</h3>
+                <p>Essential oil therapy for mind and body</p>
+            </div>
+            <div class="service-card">
+                <i class="fas fa-hot-tub"></i>
+                <h3>Hot Stone Massage</h3>
+                <p>Therapeutic healing with warm stones</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="about-content">
+            <h2>About Us</h2>
+            <p>At Serenity Spa, we believe in providing a sanctuary where women can escape the daily stresses of life and find peace, relaxation, and rejuvenation. Our skilled therapists are dedicated to ensuring your complete comfort and satisfaction.</p>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery">
+        <h2>Our Spa Gallery</h2>
+        <div class="gallery-grid">
+            <div class="gallery-item">
+                <img src="./assets/images/spa1.jpeg" alt="Spa Interior">
+            </div>
+            <div class="gallery-item">
+                <img src="./assets/images/spa2.jpeg" alt="Massage Room">
+            </div>
+            <div class="gallery-item">
+                <img src="./assets/images/spa3.jpeg" alt="Treatment Area">
+            </div>
+            <div class="gallery-item">
+                <img src="./assets/images/spa4.jpeg" alt="Relaxation Zone">
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <div class="contact-container">
+            <div class="contact-info">
+                <h3>Get in Touch</h3>
+                <p><i class="fas fa-map-marker-alt"></i> 123 Serenity Street, City</p>
+                <p><i class="fas fa-phone"></i> (555) 123-4567</p>
+                <p><i class="fas fa-envelope"></i> info@serenityspa.com</p>
+            </div>
+            <form class="contact-form">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <input type="tel" placeholder="Phone Number">
+                <textarea placeholder="Message" required></textarea>
+                <button type="submit" class="submit-button">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Opening Hours</h3>
+                <p>Monday - Friday: 9:00 AM - 8:00 PM</p>
+                <p>Saturday: 10:00 AM - 6:00 PM</p>
+                <p>Sunday: Closed</p>
+            </div>
+            <div class="footer-section">
+                <h3>Follow Us</h3>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Serenity Spa. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
